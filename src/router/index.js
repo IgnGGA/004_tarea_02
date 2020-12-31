@@ -9,39 +9,39 @@ import Rules from '../views/Rules.vue'
 
 const routes = [
   {
-    path:'/',
-    name:'Portada',
-    component:Portada
+    path: '/',
+    name: 'Portada',
+    component: Portada
   },
   {
-    path:'/home',
-    name:'Home',
-    component:Home
+    path: '/home',
+    name: 'Home',
+    component: Home
   },
   {
-    path:'/about',
-    name:'About',
-    component:About
+    path: '/about',
+    name: 'About',
+    component: About
   },
   {
-    path:'/contact',
-    name:'Contact',
-    component:Contact
+    path: '/contact',
+    name: 'Contact',
+    component: Contact
   },
   {
-    path:'/info',
-    name:'Info',
-    component:Info
+    path: '/info',
+    name: 'Info',
+    component: Info
   },
   {
-    path:'/registration',
-    name:'Registration',
-    component:Registration
+    path: '/registration',
+    name: 'Registration',
+    component: Registration
   },
   {
-    path:'/rules',
-    name:'Rules',
-    component:Rules
+    path: '/rules',
+    name: 'Rules',
+    component: Rules
   }
 ]
 

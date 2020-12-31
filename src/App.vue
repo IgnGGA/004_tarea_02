@@ -7,7 +7,7 @@
     <router-link to="/registration">Registration</router-link> |
     <router-link to="/rules">Rules</router-link> |
   </div>
-  <router-view/>
+  <router-view />
 </template>
 
 <style lang="scss">
@@ -27,7 +27,7 @@
     color: #033540;
 
     &.router-link-exact-active {
-      color: #0DF205;
+      color: #0df205;
     }
   }
 }
