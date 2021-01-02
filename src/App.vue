@@ -21,7 +21,9 @@
 
 #nav {
   padding: 30px;
-
+  display: flex;
+  border:solid;
+  justify-content: center;
   a {
     font-weight: bold;
     color: #033540;
@@ -29,6 +31,28 @@
     &.router-link-exact-active {
       color: #0df205;
     }
+  }
+}
+#Rules,.about,#Info,#Contact,.home{
+  display: flex;
+  flex-direction: column;
+  text-align:justify;
+  h1,h2,h3,p{
+    text-align:center;
+  }
+}
+#infotable{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+#Registration{
+  display: flex;
+  fieldset{
+    margin-top:3%
+  }
+  input,label{
+    margin-bottom:1%;
   }
 }
 </style>
